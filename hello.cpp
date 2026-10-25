@@ -36,4 +36,6 @@ int main() {
 /*
 g++ lab_1.cpp -o lab_1
 ./lab_1
+chcp 65001
+taskkill /IM lab_1.exe /F
 */

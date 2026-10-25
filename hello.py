@@ -15,10 +15,15 @@ print(result)'''
 #     nach+=1
 # print(summ)
     
-n=input()
-k=int(input())
-m=int(input())
-a=''
-for i in range(k-1,m):
-    a+=n[i]
-print(a)
+# n=input()
+# k=int(input())
+# m=int(input())
+# a=''
+# for i in range(k-1,m):
+#     a+=n[i]
+# print(a)
+
+kg=float(input())
+m=float(input())
+imt=kg/(m*m)
+print(imt)
